@@ -80,3 +80,43 @@ html,body{
     cursor: pointer;
     color: #c7a1f0;
 }
+
+/* Responsive design for tablets (600px to 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    #panel {
+        width: 90%;
+        height: 85%;
+    }
+
+    #ptop {
+        padding: 0px 10%;
+    }
+
+    .box {
+        font-size: 17px;
+    }
+
+    .bubble {
+        width: 45px;
+        height: 45px;
+        font-size: 17px;
+    }
+}
+
+/* Large screens (desktops and up) */
+@media screen and (min-width: 901px) {
+    #panel {
+        width: 80%;
+        height: 80%;
+    }
+
+    #ptop {
+        padding: 0px 30%;
+    }
+
+    .bubble {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
