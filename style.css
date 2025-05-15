@@ -81,6 +81,36 @@ html,body{
     color: #c7a1f0;
 }
 
+/* Responsive design for mobile screens */
+@media screen and (max-width: 600px) {
+    #panel {
+        width: 95%;
+        height: 90%;
+    }
+
+    #ptop {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+    }
+
+    .element {
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .box {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .bubble {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
 /* Responsive design for tablets (600px to 900px) */
 @media screen and (min-width: 601px) and (max-width: 900px) {
     #panel {
